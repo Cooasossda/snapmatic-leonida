@@ -23,6 +23,293 @@ function icon(name) {
 }
 
 const posts = [
+{
+  "id": "2123",
+  "user": "HighwayCam",
+  "initials": "HC",
+  "color": "#ffc17c",
+  "location": "Leonida",
+  "title": "Highway encounters",
+  "caption": "Another ordinary drive through Leonida. Keep your camera ready.",
+  "tag": "LeonidaDrivers",
+  "likes": 3200,
+  "count": 32,
+  "duration": "0:16",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "25",
+  "user": "ViceParking",
+  "initials": "VP",
+  "color": "#aff09c",
+  "location": "Leonida",
+  "title": "Parking lot activities",
+  "caption": "Went out for food. Got a whole parking lot show.",
+  "tag": "OnlyInLeonida",
+  "likes": 3717,
+  "count": 39,
+  "duration": "0:08",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "27",
+  "user": "SidewalkStories",
+  "initials": "SS",
+  "color": "#ff9cbf",
+  "location": "Leonida",
+  "title": "Just another sidewalk conversation",
+  "caption": "The sidewalk conversations in this town deserve their own feed.",
+  "tag": "ViceCityLife",
+  "likes": 4234,
+  "count": 46,
+  "duration": "0:05",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "34",
+  "user": "ViceNightShift",
+  "initials": "VN",
+  "color": "#cab0ff",
+  "location": "Leonida",
+  "title": "The night is still young",
+  "caption": "Everyone has a story after a night out in Vice.",
+  "tag": "ViceAfterDark",
+  "likes": 4751,
+  "count": 53,
+  "duration": "0:11",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "35",
+  "user": "ScooterWatch",
+  "initials": "SW",
+  "color": "#8fe0ce",
+  "location": "Leonida",
+  "title": "Anyone missing a scooter?",
+  "caption": "The local lost and found is getting interesting.",
+  "tag": "OnlyInLeonida",
+  "likes": 5268,
+  "count": 60,
+  "duration": "0:09",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "36",
+  "user": "MudParkLocals",
+  "initials": "MP",
+  "color": "#ffc17c",
+  "location": "Leonida",
+  "title": "Down at the mud park",
+  "caption": "Mud, sunshine, and absolutely no plans to go home early.",
+  "tag": "MudPark",
+  "likes": 5785,
+  "count": 67,
+  "duration": "0:12",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "37",
+  "user": "NoDaysOffLeo",
+  "initials": "ND",
+  "color": "#aff09c",
+  "location": "Leonida",
+  "title": "No days off",
+  "caption": "Training wherever the day takes us. Leonida stays ready.",
+  "tag": "NoDaysOff",
+  "likes": 6302,
+  "count": 74,
+  "duration": "0:10",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "38",
+  "user": "BackyardBroadcast",
+  "initials": "BB",
+  "color": "#ff9cbf",
+  "location": "Leonida",
+  "title": "Backyard entertainment",
+  "caption": "The backyard has a better lineup than the weekend events page.",
+  "tag": "LeonidaLocals",
+  "likes": 6819,
+  "count": 81,
+  "duration": "0:13",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "39",
+  "user": "HaveAViceDay",
+  "initials": "HA",
+  "color": "#cab0ff",
+  "location": "Leonida",
+  "title": "Working the Vice City shift",
+  "caption": "Clocked in. Phone out. Another shift in the sunshine.",
+  "tag": "ViceCityLife",
+  "likes": 7336,
+  "count": 88,
+  "duration": "0:15",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "4",
+  "user": "LeonidaLateTV",
+  "initials": "LL",
+  "color": "#8fe0ce",
+  "location": "Leonida",
+  "title": "A message from your television",
+  "caption": "Found this while channel surfing. The TV has opinions tonight.",
+  "tag": "LateNightTV",
+  "likes": 7853,
+  "count": 95,
+  "duration": "0:12",
+  "format": "wide",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "40",
+  "user": "AisleFive",
+  "initials": "AF",
+  "color": "#ffc17c",
+  "location": "Leonida",
+  "title": "Grocery run footage",
+  "caption": "Came in for a few things. Left with a story for the group chat.",
+  "tag": "OnlyInLeonida",
+  "likes": 8370,
+  "count": 102,
+  "duration": "0:18",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "43",
+  "user": "DecoAfterHours",
+  "initials": "DA",
+  "color": "#aff09c",
+  "location": "Deco District",
+  "title": "A moment in the Deco District",
+  "caption": "The lights hit different down here after sunset.",
+  "tag": "DecoDistrict",
+  "likes": 8887,
+  "count": 109,
+  "duration": "0:14",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "67",
+  "user": "RookieWatch",
+  "initials": "RW",
+  "color": "#ff9cbf",
+  "location": "Leonida",
+  "title": "First day on the job",
+  "caption": "Every shift has a learning curve. Some make the feed.",
+  "tag": "LeonidaLocals",
+  "likes": 9404,
+  "count": 116,
+  "duration": "0:18",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "1001",
+  "user": "HaveAViceNight",
+  "initials": "HA",
+  "color": "#cab0ff",
+  "location": "Leonida",
+  "title": "Wait for it",
+  "caption": "The camera was already rolling. You know the rest.",
+  "tag": "ViceAfterDark",
+  "likes": 9921,
+  "count": 123,
+  "duration": "0:11",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
+{
+  "id": "23",
+  "user": "LeonidaRadio",
+  "initials": "LR",
+  "color": "#8fe0ce",
+  "location": "Leonida",
+  "title": "One more for the soundboard",
+  "caption": "A quick sound bite from the Leonida feed.",
+  "tag": "LeonidaAudio",
+  "likes": 10438,
+  "count": 130,
+  "duration": "0:02",
+  "format": "audio",
+  "comments": [
+    [
+      "@keyslocals",
+      "This city never runs out of things to post."
+    ]
+  ]
+},
   {
     id: '17', user: 'MonumentMiles', initials: 'MM', color: '#ffc17c', location: 'Vice City',
     title: 'The statue challenge', caption: 'One trick shot. Hundreds of attempts. The horse never even flinched.',
