@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#110e16">
+  <meta name="description" content="A local, fan-made short video feed from the streets of Leonida.">
+  <title>Snapmatic — From the streets of Leonida</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main class="app">
+    <aside class="sidebar">
+      <button class="brand" data-view="home" aria-label="Snapmatic home">
+        <span class="brand-icon" data-icon="camera"></span>
+        <span>snap<span class="brand-accent">matic</span><small>LEONIDA SOCIAL</small></span>
+      </button>
+      <nav class="navigation" aria-label="Main navigation">
+        <button data-view="home" data-icon="home">Home</button>
+        <button data-view="discover" data-icon="search">Discover</button>
+        <button data-view="saved" data-icon="bookmark">Saved</button>
+      </nav>
+      <div class="sidebar-footer">
+        <div class="location">
+          <div class="location-label"><span data-icon="pin"></span><div><strong>Vice City</strong><small>Leonida, USA</small></div></div>
+        </div>
+        <small class="fan-note">Unofficial fan project</small>
+      </div>
+    </aside>
+
+    <section class="workspace" aria-label="Snapmatic feed">
+      <header class="topbar">
+        <span class="topbar-label" id="topbar-label">Your feed</span>
+        <div class="feed-tabs" aria-label="Feed selection">
+          <button data-view="home">For You</button>
+          <button data-view="following">Following</button>
+        </div>
+        <h1 id="view-title" hidden></h1>
+        <button class="icon-button sound" data-action="sound" aria-label="Unmute"></button>
+      </header>
+      <div class="feed-wrap">
+        <div class="feed" id="feed" aria-label="Short videos" tabindex="0"></div>
+        <div class="feed-controls" aria-label="Video navigation">
+          <button class="icon-button" data-action="previous" data-icon="up" aria-label="Previous video"></button>
+          <button class="icon-button" data-action="next" data-icon="down" aria-label="Next video"></button>
+        </div>
+        <div class="feed-footer"><span><kbd>↑</kbd> <kbd>↓</kbd> Browse clips</span><span id="feed-count"></span></div>
+      </div>
+      <section class="collection" id="collection" hidden></section>
+    </section>
+
+    <aside class="discover-rail" aria-label="Explore Leonida">
+      <button class="search-launch" data-view="discover" data-icon="search">Search Leonida <kbd>/</kbd></button>
+      <section class="spotlight" aria-labelledby="spotlight-title">
+        <h2 id="spotlight-title">Spotlight</h2>
+        <div id="spotlight"></div>
+      </section>
+      <section class="rail-card">
+        <header><span class="rail-icon" data-icon="trend"></span><h2>Trending in Leonida</h2></header>
+        <div id="trends"></div>
+      </section>
+      <section class="rail-card">
+        <header><span class="rail-icon peach" data-icon="people"></span><h2>Local creators</h2></header>
+        <div id="creators"></div>
+      </section>
+    </aside>
+  </main>
+
+  <dialog id="comments" aria-labelledby="comments-title">
+    <div class="dialog-header">
+      <h2 id="comments-title">Comments</h2>
+      <button class="icon-button" data-action="close" data-icon="close" aria-label="Close comments"></button>
+    </div>
+    <div class="comment-list" id="comment-list"></div>
+    <form id="comment-form" class="comment-form">
+      <input name="comment" maxlength="220" aria-label="Write a comment" placeholder="Add a comment…" required>
+      <button class="pill primary" type="submit">Post</button>
+    </form>
+  </dialog>
+  <div id="toast" class="toast" role="status" hidden></div>
+</body>
+</html>
